@@ -1,0 +1,168 @@
+h1{
+	margin-left: auto;
+    margin-right: auto;
+	display: block;
+	color: Tomato;
+	text-align: center;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+#search_stuff, footer{
+ /* ALIGN CENTER */ 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+   width: 852px; 
+   height: 563px;
+}
+
+h2 { 
+   position: absolute; 
+   top: 900px; 
+   left: 15;
+   width: 100%; 
+}
+
+h2 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+.HomeReview{
+	padding:3rem 0 2rem;
+	line-height:1
+}
+
+.HomeReview-text{
+	margin:1rem auto;
+	max-width:750px;
+	font-weight:300;
+	font-size:1.5rem;
+	line-height:1.4
+}
+.HomeReview-stats{
+	text-align: center;
+	font-size:.875rem;
+	margin:1rem auto;
+	max-width:750px;
+	font-weight:300;
+	line-height:1.4
+}
+.HomeReview-author{
+	text-align: center;
+	margin:1rem auto;
+	max-width:750px;
+	font-weight:300;
+	font-size:1.5rem;
+	line-height:1.4;
+}
+.stars{
+   margin-left: 800px;
+   width: 200px; 
+   height: 100x;
+	
+}
+.FooterStats-stat{
+	position:relative;
+	display:inline-block;
+	margin:2rem 0;
+	padding-left:6.5rem;
+	width:17%;
+}
+	@media screen and (max-width:900px)
+{
+.FooterStats-stat{
+	width:50%;
+	text-align:center
+	}
+}
+@media screen and (max-width:600px)
+{
+.FooterStats-stat{
+	display:none
+}
+}
+.FooterStats-content h3{
+margin:0;
+color:#705b43;
+font-weight:700;
+font-size:2.5rem;
+line-height:1;
+}
+.FooterStats-content p{
+	margin:0
+}
+.icons {
+	position: absolute;
+	width:70px;
+	height:70px;
+	margin-left: -80px;
+	
+}
+.FooterStatsContent{
+	margin-left:300px;
+	position: relative;
+}
