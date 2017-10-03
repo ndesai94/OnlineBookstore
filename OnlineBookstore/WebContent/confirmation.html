@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="ISO-8859-1">
+        <link rel="stylesheet" type="text/css" href="css/nicky_style.css">
+        <script src="scripts/myscripts.js"></script>  
+        <title>Online Book Store!</title>
+    </head>
+    <h1> The Online Bookstore!</h1>
+    <body>
+        <div id="main">
+        <span style="font-size:30px;cursor:pointer; float:right" onclick="openNav()">&#9776; Menu</span>
+        </div>
+        <div id="search_stuff">
+            <form action="" method="post" id="search">
+                <select name="filter">
+                    <option value="author">Author</option>
+                    <option value="isbn">ISBN</option>
+                    <option value="name">Name</option>
+                    <option value="subject">Subject</option>
+                </select>
+                <input type="text" name="search" size="60">
+                <input type="submit" value="submit">
+            </form>
+        </div>
+
+
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#">Login</a>
+          <a href="#">Register</a>
+          <a href="#">About Us</a>
+          <a href="#">Contact Us</a>
+        </div>
+        
+        <div id="wrapper2">
+            
+            <h2> Thank you for placing an order at the Online Bookstore! A confirmation email has been delivered to your email address. </h2>
+            <br><br><br><br>
+            <p id="returnHome"><a href="">Return to Home Page</a></p>
+        
+        </div>
+
+    </body>
+    
+    
+</html>

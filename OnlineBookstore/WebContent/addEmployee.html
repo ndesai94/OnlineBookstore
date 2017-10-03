@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="ISO-8859-1">
+        <link rel="stylesheet" type="text/css" href="css/nicky_style.css">
+        <script src="scripts/myscripts.js"></script>  
+        <title>Online Book Store!</title>
+    </head>
+    <h1> The Online Bookstore!</h1>
+    <body>
+        <div id="main">
+        <span style="font-size:30px;cursor:pointer; float:right" onclick="openNav()">&#9776; Menu</span>
+        </div>
+        <div id="search_stuff">
+            <form action="" method="post" id="search">
+                <select name="filter">
+                    <option value="author">Author</option>
+                    <option value="isbn">ISBN</option>
+                    <option value="name">Name</option>
+                    <option value="subject">Subject</option>
+                </select>
+                <input type="text" name="search" size="60">
+                <input type="submit" value="submit">
+            </form>
+        </div>
+
+
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#">Login</a>
+          <a href="#">Register</a>
+          <a href="#">About Us</a>
+          <a href="#">Contact Us</a>
+        </div>
+        
+        <div id="wrapper">
+            
+            <h2> Add New Employee </h2>
+            
+            <center>
+                <table id="addEmployee">
+                    <tr><td>Type of Employee: </td>      
+                        <td><select>
+                            <option value="type1">General Employee</option>
+                            <option value="type2">Shipment Employee</option>
+                            <option value="type3">Supplier Employee</option>
+                            </select></td>
+                    </tr>
+                    <tr><td>Employee ID: </td>      <td><input type="text"></td></tr>
+                    <tr><td>First Name: </td>       <td><input type="text"></td></tr>
+                    <tr><td>Last Name: </td>        <td><input type="text"></td></tr>
+                    <tr><td>Email: </td>            <td><input type="text"></td></tr>
+                    <tr><td>Phone #: </td>          <td><input type="text"></td></tr>
+                    <tr><td>Mailing Address: </td>  <td><input type="text"></td></tr>
+                </table>
+                <br><br>
+                <input type="button" value="Create Employee">
+            </center>
+        
+        </div>
+
+    </body>
+    
+    
+</html>
