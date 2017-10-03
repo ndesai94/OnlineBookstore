@@ -7,6 +7,15 @@ div.main {
     margin: auto;
 }
 
+div.admin {
+    background-color: #333;
+    color: #EEE;
+    font-size: 0.9em;
+    width: 70%;
+    box-shadow: 5px 5px 10px #CCC;
+    margin: auto;
+}
+
 span.menu_icon {
     font-size:18px;
     cursor:pointer;
@@ -140,6 +149,21 @@ li a {
 
 li a:hover {
     background-color: #111;
+}
+
+a.adminMenu {
+	text-decoration: none;
+	color: #333;
+    text-align: center;
+}
+
+a.adminSelected {
+	background-color: #333;
+	color: #EEE;
+}
+
+a.adminMenu:hover {
+    background-color: #EEE;
 }
 
 .HomeReview-text{
