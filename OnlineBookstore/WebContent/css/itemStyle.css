@@ -1,3 +1,6 @@
+* {
+	font-family: Georgia, 'Times New Roman', Times, serif
+}
 h1{
 	margin-left: auto;
     margin-right: auto;
@@ -181,12 +184,21 @@ table, th, td {
 	font-style: italic;
 }
 
-.descr{
-	background-color:whitesmoke;
+.descr {
+	background-color: #dbf2db;
 }
 
 .addToCart{
 	color: whitesmoke;
 	background-color: forestgreen;
 	border-color: green;
+}
+
+.preInfoHeader{
+	font-weight:bolder;
+}
+
+.infoBox {
+	border: ridge;
+	background-color: #dbf2db;
 }
