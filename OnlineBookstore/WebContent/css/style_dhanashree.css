@@ -198,7 +198,9 @@ a.adminMenu:hover {
 	line-height:1.4;
 }
 .stars{
-   margin-left: 800px;
+   position: relative;
+   display: block;
+   margin: 0 auto;
    width: 200px; 
    height: 100x;
 	
