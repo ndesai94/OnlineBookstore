@@ -7,11 +7,15 @@ div.main {
     margin: auto;
 }
 
+button.admin{
+	width:50%;
+}
+
 div.admin {
     background-color: #333;
     color: #EEE;
     font-size: 0.9em;
-    width: 70%;
+    width: 100%;
     box-shadow: 5px 5px 10px #CCC;
     margin: auto;
 }
@@ -50,6 +54,10 @@ table {
 
 table.loginPageOptions {
     width:70%;
+}
+
+table.admin{
+	width:70%
 }
 
 table.registration {
@@ -190,12 +198,9 @@ a.adminMenu:hover {
 	line-height:1.4;
 }
 .stars{
-  position: relative;
-   display: block;
-   margin: 0 auto;
+   margin-left: 800px;
    width: 200px; 
    height: 100x;
-	
 	
 }
 .FooterStats-stat{
