@@ -65,6 +65,7 @@ table.registration {
 }
 
 td.registrationForm {
+	color: blue;
     padding:5px;
 }
 
@@ -79,7 +80,7 @@ td.registrationInput input {
 }
 
 td.search {
-    width:75%;
+    width:10%;
 }
 
 input {
@@ -90,6 +91,7 @@ input {
 }
 
 input.submitRegistration {
+	
     margin-top: 5px;
     margin-bottom: 5px;
     width: 15%;
